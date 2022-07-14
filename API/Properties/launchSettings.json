@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "https://localhost:44389/",
+      "sslPort": 44389
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "remoteDebugEnabled": true,
+      "remoteDebugMachine": "swagger"
+    },
+    "API": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Unipoly\\source\\repos\\gatewaymanagement\\API\\bin\\Debug\\net6.0\\API.exe"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}
