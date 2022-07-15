@@ -8,7 +8,7 @@ namespace Application.ViewModel.Routing
 {
     public class RouteIDPositionModel
     {
-        public string SwaggerID { get; protected set; }
-        public int Position { get; protected set; }
+        public string SwaggerID { get; set; }
+        public int Position { get; set; }
     }
 }

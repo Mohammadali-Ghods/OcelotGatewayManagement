@@ -8,13 +8,13 @@ namespace Application.ViewModel.Routing
 {
     public class RouteInsertUpdateModel
     {
-        public string DownstreamPathTemplate { get; protected set; }
-        public string DownstreamScheme { get; protected set; }
-        public string DownstreamHost { get; protected set; }
-        public int DownstreamPort { get; protected set; }
-        public string UpstreamPathTemplate { get; protected set; }
-        public string UpstreamHttpMethod { get; protected set; }
-        public string SwaggerID { get; protected set; }
-        public int Position { get; protected set; }
+        public string DownstreamPathTemplate { get; set; }
+        public string DownstreamScheme { get; set; }
+        public string DownstreamHost { get; set; }
+        public int DownstreamPort { get; set; }
+        public string UpstreamPathTemplate { get; set; }
+        public string UpstreamHttpMethod { get; set; }
+        public string SwaggerID { get; set; }
+        public int Position { get; set; }
     }
 }
